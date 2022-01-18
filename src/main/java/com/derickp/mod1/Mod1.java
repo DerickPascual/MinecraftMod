@@ -24,7 +24,7 @@ public class Mod1
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "mod1";
-
+    // Very Important Comment
     public Mod1() {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
